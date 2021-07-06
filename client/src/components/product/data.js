@@ -58,7 +58,7 @@ const data = [
     price: "  $358 / 30,000৳ - ",
     description:
       "More flexibility, faster go to market. See what Fashion-Ecommerce can do for you. ",
-    plink:'/fashion'
+    plink: "/fashion",
   },
 
   {
@@ -69,6 +69,7 @@ const data = [
     price: " $358 / 30,000৳ -  ",
     description:
       "Use our online ordering system for restaurants to start taking free unlimited online orders from your website. ",
+    plink: "/restaurant",
   },
   {
     id: 8,
@@ -78,7 +79,9 @@ const data = [
     price: "$416.66 / 35,000৳ - ",
     description:
       " A well build online Grocery Management And Delivery Software for Supermarket And Hypermarket Business ",
+    plink: "/grocery",
   },
+
   {
     id: 9,
     image: "../ecommerce/furniture.jpg",

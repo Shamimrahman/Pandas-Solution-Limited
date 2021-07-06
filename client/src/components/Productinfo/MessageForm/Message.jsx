@@ -1,13 +1,19 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Message = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
     <section id='message' class="flex flex-col items-center h-screen md:flex-row xs:mt-2 lg:mt-28">
     <div class="container mx-auto">
       <div class="flex justify-center px-2 py-6 ">
         <div class="flex w-full rounded-lg xl:w-3/4 lg:w-11/12 lg:shadow-xl ">
-          <div class="relative hidden w-full h-auto bg-white bg-cover border-r rounded-l-lg lg:block lg:w-6/12">
+          <div class="relative hidden w-full h-auto bg-white bg-cover border-r rounded-l-lg lg:block lg:w-6/12" data-aos="fade-right">
             <div class="relative z-10 m-12 text-left ">
               <a class="flex items-center  mb-4 font-medium text-blueGray-900 title-font md:mb-10">
               <h2 class="text-lg font-bold tracking-tighter text-black uppercase transition duration-500 ease-in-out transform hover:text-lightBlack-500 dark:text-lightBlue-400"> Knock Us at any Time 🤙 </h2>
@@ -26,7 +32,7 @@ const Message = () => {
               <h2 className='text-xl'>+8801703493394</h2>
             </div>
           </div>
-          <div class="w-full  shadow-2xl px-8 py-24 bg-orange-100 rounded-lg border-blueGray-100 lg:w-8/12 lg:px-24 lg:py-4 lg:rounded-l-none s">
+          <div class="w-full  shadow-2xl px-8 py-24 bg-orange-100 rounded-lg border-blueGray-100 lg:w-8/12 lg:px-24 lg:py-4 lg:rounded-l-none s " data-aos="fade-left">
             <div class="relative z-10 text-left ">
               <div class="flex justify-enter lg:py-6">
              
