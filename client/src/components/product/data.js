@@ -90,6 +90,7 @@ const data = [
     price: " $358 / 30,000৳ -",
     description:
       " As you go through the necessary steps to launch your furniture or interior design store online, Pandas gives you an incredible selection of furniture website ",
+    plink: "/furniture",
   },
   {
     id: 10,

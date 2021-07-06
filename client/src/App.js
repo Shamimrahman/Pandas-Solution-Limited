@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import ScrollToTop from "./components/ScrollTop/ScrollTop";
 import Restaurant from "./components/Productinfo/ecommerce/Restaurant";
 import Grocery from "./components/Productinfo/ecommerce/Grocery";
+import Furniture from "./components/Productinfo/ecommerce/Furniture";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/fashion" component={Fashion}></Route>
         <Route path="/restaurant" component={Restaurant}></Route>
         <Route path="/grocery" component={Grocery}></Route>
+        <Route path="/furniture" component={Furniture}></Route>
       </switch>
     </div>
   );
