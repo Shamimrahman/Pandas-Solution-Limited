@@ -100,6 +100,7 @@ const data = [
     price: "$358 / 30,000৳ -",
     description:
       "A lot goes into the development of a solid eCommerce platform so take the shortcut and go with Pandas electronics store website.  ",
+    plink: "/gadget",
   },
   {
     id: 11,
@@ -109,6 +110,7 @@ const data = [
     price: " $0 / 0৳",
     description:
       "A plant buying website that gives you the feeling as clean and fresh as plants are!!! Its free product from Pandas. ",
+    plink: "/plant",
   },
 
   {

@@ -7,8 +7,15 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
 import ScrollToTop from "./components/ScrollTop/ScrollTop";
 import Restaurant from "./components/Productinfo/ecommerce/Restaurant";
+
 import Grocery from "./components/Productinfo/ecommerce/Grocery";
 import Furniture from "./components/Productinfo/ecommerce/Furniture";
+import Gadget from "./components/Productinfo/ecommerce/Gadget";
+import Gadgetweb from "./components/Productinfo/ecommerce/ecommerceweb/Gadgetweb";
+
+import Plant from "./components/Productinfo/ecommerce/Plant";
+import Plantweb from "./components/Productinfo/ecommerce/ecommerceweb/Plantweb";
+import RestaurantWeb from "./components/Productinfo/ecommerce/ecommerceweb/RestaurantWeb";
 
 const App = () => {
   return (
@@ -21,8 +28,13 @@ const App = () => {
 
         <Route path="/fashion" component={Fashion}></Route>
         <Route path="/restaurant" component={Restaurant}></Route>
+        <Route path="/restaurantcart" component={RestaurantWeb}></Route>
         <Route path="/grocery" component={Grocery}></Route>
         <Route path="/furniture" component={Furniture}></Route>
+        <Route path="/gadget" component={Gadget}></Route>
+        <Route path="/gadgetweb" component={Gadgetweb}></Route>
+        <Route path="/plant" component={Plant}></Route>
+        <Route path="/plantcart" component={Plantweb}></Route>
       </switch>
     </div>
   );

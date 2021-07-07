@@ -9,7 +9,7 @@
   height: 100px;
 }
 
-.poster-hover {
+.poster-hover:hover {
   transform: scale(1.1);
   transition: all 0.25s linear;
 }
@@ -36,8 +36,6 @@
   color: #fff;
   transform: translateY(-7px);
 }
-
-
 
 @media screen and (max-width: 760px) {
   .img {

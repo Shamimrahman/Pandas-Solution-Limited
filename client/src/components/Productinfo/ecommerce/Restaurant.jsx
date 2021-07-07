@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import Message from "../MessageForm/Message";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import { Link } from "react-router-dom";
+import "./Fashion.css";
 const Restaurant = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -262,8 +263,153 @@ const Restaurant = () => {
         </div>
       </div>
 
-      {/**Message Form */}
-      <Message></Message>
+      {/**Food Section */}
+      <div data-aos="fade-up" className="text-center mt-20">
+        <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-red-500 mb-4">
+          Restaurant Food Card Demo
+        </h1>
+        <hr className="w-52 mx-auto mt-5 headline"></hr>
+      </div>
+
+      {/**Food Card */}
+
+      <div className=" grid m-7  sm:grid-cols-4 justify-center mt-12 -gap-12 space-y-1 gap-4 md:space-y-2">
+        {/**Col start */}
+        <div
+          className="flex Card flex-col items-center justify-center  max-w-sm mx-auto  "
+          data-aos="flip-right"
+        >
+          <div
+            class="w-full h-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-2xl "
+            style={{
+              backgroundImage:
+                "url(https://media3.giphy.com/media/NcFQYJ7Q312BhP30MM/giphy.gif)",
+            }}
+          ></div>
+
+          <div class="w-56 -mt-10 overflow-hidden bg-orange-100 rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">
+              Pizza
+            </h3>
+
+            <div class="flex items-center justify-between px-3 py-2 bg-orange-200 dark:bg-gray-700">
+              <span class="font-bold text-gray-800 dark:text-gray-200">
+                $29
+              </span>
+
+              <Link to="/restaurantcart">
+                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-red-700 rounded hover:bg-orange-200 dark:hover:bg-gray-600 focus:bg-red-400 dark:focus:bg-gray-600 focus:outline-none">
+                  Add to cart
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/**Col end */}
+
+        {/**Col start */}
+        <div
+          class="flex Card flex-col items-center justify-center  max-w-sm mx-auto  "
+          data-aos="flip-right"
+        >
+          <div
+            class="w-full h-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-2xl "
+            style={{
+              backgroundImage:
+                "url(https://i.pinimg.com/originals/61/49/d3/6149d3b9fc86710a5220b90b1bda7599.gif)",
+            }}
+          ></div>
+
+          <div class="w-56 -mt-10 overflow-hidden bg-orange-100 rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">
+              Steak
+            </h3>
+
+            <div class="flex items-center justify-between px-3 py-2 bg-orange-200 dark:bg-gray-700">
+              <span class="font-bold text-gray-800 dark:text-gray-200">
+                $150
+              </span>
+
+              <Link to="/restaurantcart">
+                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-red-700 rounded hover:bg-orange-200 dark:hover:bg-gray-600 focus:bg-red-400 dark:focus:bg-gray-600 focus:outline-none">
+                  Add to cart
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/**Col end */}
+
+        {/**Col start */}
+        <div
+          class="flex Card flex-col items-center justify-center  max-w-sm mx-auto  "
+          data-aos="flip-right"
+        >
+          <div
+            class="w-full h-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-2xl "
+            style={{
+              backgroundImage:
+                "url(https://i.pinimg.com/originals/50/c3/46/50c346e2c432bf945471e978ee6429a4.gif)",
+            }}
+          ></div>
+
+          <div class="w-56 -mt-10 overflow-hidden bg-orange-100 rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">
+              Rice Bowl
+            </h3>
+
+            <div class="flex items-center justify-between px-3 py-2 bg-orange-200 dark:bg-gray-700">
+              <span class="font-bold text-gray-800 dark:text-gray-200">
+                $59
+              </span>
+
+              <Link to="/restaurantcart">
+                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-red-700 rounded hover:bg-orange-200 dark:hover:bg-gray-600 focus:bg-red-400 dark:focus:bg-gray-600 focus:outline-none">
+                  Add to cart
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/**Col end */}
+
+        {/**Col start */}
+        <div
+          class="flex Card flex-col items-center justify-center  max-w-sm mx-auto  "
+          data-aos="flip-right"
+        >
+          <div
+            class="w-full h-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-2xl "
+            style={{
+              backgroundImage:
+                "url(https://media3.giphy.com/media/xT39D2A6TB8D1Ce79C/giphy.gif?cid=e1bb72ff5b0c445633644e4f51096b67)",
+            }}
+          ></div>
+
+          <div class="w-56 -mt-10 overflow-hidden bg-orange-100 rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">
+              Chicken Grill
+            </h3>
+
+            <div class="flex items-center justify-between px-3 py-2 bg-orange-200 dark:bg-gray-700">
+              <span class="font-bold text-gray-800 dark:text-gray-200">
+                $32
+              </span>
+
+              <Link to="/restaurantcart">
+                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-red-700 rounded hover:bg-orange-200 dark:hover:bg-gray-600 focus:bg-red-400 dark:focus:bg-gray-600 focus:outline-none">
+                  Add to cart
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/**Col end */}
+      </div>
     </div>
   );
 };
