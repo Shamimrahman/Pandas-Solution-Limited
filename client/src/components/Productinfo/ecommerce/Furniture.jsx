@@ -249,6 +249,215 @@ const Furniture = () => {
           </div>
         </div>
       </div>
+      {/** product Card */}
+
+      <div data-aos="fade-up" className="text-center mt-10">
+        <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
+          Product Demo Card
+        </h1>
+        <hr className="w-52 mx-auto mt-5 headline"></hr>
+      </div>
+
+      {/**Card section */}
+      <div className="grid m-7 grid-cols-1 xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 justify-center mx-auto ">
+        {/**Col start */}
+
+        <div class="Card container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+          <div
+            class="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
+            data-aos="flip-right"
+          >
+            <div class="prod-title">
+              <p class="text-2xl uppercase text-gray-900 font-bold">Sofa</p>
+              <p class="uppercase text-sm text-gray-400">
+                The best Sofa in the marketplace
+              </p>
+            </div>
+            <div class="prod-img">
+              <img
+                src="https://static4.depositphotos.com/1004099/314/i/600/depositphotos_3149467-stock-photo-red-leather-sofa-isolated-on.jpg"
+                class="w-full min-h-full object-cover object-center"
+              />
+            </div>
+            <div class="prod-info grid gap-10">
+              <div>
+                <ul class="flex flex-row justify-center items-center">
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#blue"
+                        class="block w-6 h-6 bg-blue-900 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#yellow"
+                        class="block w-6 h-6 bg-yellow-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#red"
+                        class="block w-6 h-6 bg-red-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#green"
+                        class="block w-6 h-6 bg-green-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col md:flex-row justify-between items-center text-gray-900">
+                <p class="font-bold text-xl">165 $</p>
+                <button class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/**End col */}
+
+        <div class="  container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+          <div
+            class=" Card card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
+            data-aos="flip-right"
+          >
+            <div class="prod-title">
+              <p class="text-2xl uppercase text-gray-900 font-bold">Bed</p>
+              <p class="uppercase text-sm text-gray-400">
+                The best bed in the marketplace
+              </p>
+            </div>
+            <div class="prod-img">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=479,height=239,quality=75,format=auto,fit=contain,g=top/in-resources/ee3f4ad5-f5ba-49b3-a2e8-f65bbba20ae3/Images/ProductImages/Source/DB2D06.JPG"
+                class="w-full min-h-full object-cover object-center"
+              />
+            </div>
+            <div class="prod-info grid gap-10">
+              <div>
+                <ul class="flex flex-row justify-center items-center">
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#blue"
+                        class="block w-6 h-6 bg-blue-900 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#yellow"
+                        class="block w-6 h-6 bg-yellow-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#red"
+                        class="block w-6 h-6 bg-red-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#green"
+                        class="block w-6 h-6 bg-green-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col md:flex-row justify-between items-center text-gray-900">
+                <p class="font-bold text-xl">65 $</p>
+                <button class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/**Start col */}
+        <div class="container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+          <div
+            class=" Card card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
+            data-aos="flip-right"
+          >
+            <div class="prod-title">
+              <p class="text-2xl uppercase text-gray-900 font-bold">
+                Dinning Table
+              </p>
+              <p class="uppercase text-sm text-gray-400">
+                The best dinning table in the marketplace
+              </p>
+            </div>
+            <div class="prod-img">
+              <img
+                src="https://hatil.in/sites/default/files/styles/product_listing/public/Cumin-179%2C%20Marmot-179-01.png?itok=80ybCxVq"
+                class="w-full object-cover object-center"
+              />
+            </div>
+            <div class="prod-info grid gap-10">
+              <div>
+                <ul class="flex flex-row justify-center items-center">
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#blue"
+                        class="block w-6 h-6 bg-blue-900 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#yellow"
+                        class="block w-6 h-6 bg-yellow-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#red"
+                        class="block w-6 h-6 bg-red-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                  <li class="mr-4 last:mr-0">
+                    <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
+                      <a
+                        href="#green"
+                        class="block w-6 h-6 bg-green-500 rounded-full"
+                      ></a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col md:flex-row justify-between items-center text-gray-900">
+                <p class="font-bold text-xl">65 $</p>
+                <button class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

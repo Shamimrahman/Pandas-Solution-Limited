@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
-const Gadgetweb = () => {
+import Fashionsize from "./Fashionsize";
+const Fashioncart = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -10,17 +11,26 @@ const Gadgetweb = () => {
     <div>
       <div data-aos="fade-up" className="text-center mt-10">
         <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
-          Product Cart Page Demo Section
+          Product Verify Demo Section
         </h1>
         <hr className="w-52 mx-auto mt-5 headline"></hr>
         <div class="flex justify-center space-x-7 mt-10">
-          <Link to="/gadget">
+          <Link to="/fashion">
             {" "}
             <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
               Back
             </button>
           </Link>
         </div>
+      </div>
+      {/**Fashion Size */}
+      <Fashionsize></Fashionsize>
+
+      <div data-aos="fade-up" className="text-center mt-10">
+        <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
+          Product Cart Page Demo Section
+        </h1>
+        <hr className="w-52 mx-auto mt-5 headline"></hr>
       </div>
 
       {/** Crt Page */}
@@ -39,13 +49,13 @@ const Gadgetweb = () => {
                 <div class="flex justify-between items-center mt-6 pt-6 border-t">
                   <div class="flex items-center">
                     <img
-                      src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-white-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343705000"
+                      src="https://cdn.vox-cdn.com/thumbor/S4ka2uwWyJ9rHJFDwVa8BQCqMHA=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22406771/Exbfpl2WgAAQkl8_resized.jpeg"
                       width="60"
                       class="rounded-full "
                     />
                     <div class="flex flex-col ml-3 ">
                       {" "}
-                      <span class="text-md font-medium">Iphone 12</span>{" "}
+                      <span class="text-md font-medium">Nike Shoe</span>{" "}
                       <span class="text-xs font-light text-gray-400">
                         #86577
                       </span>{" "}
@@ -64,7 +74,7 @@ const Gadgetweb = () => {
                     </div>
                     <div class="pr-8">
                       {" "}
-                      <span class="text-xs font-medium">$759</span>{" "}
+                      <span class="text-xs font-medium">$59</span>{" "}
                     </div>
                     <div>
                       {" "}
@@ -85,7 +95,7 @@ const Gadgetweb = () => {
                     <span class="text-sm font-medium text-gray-400 mr-1">
                       Subtotal:
                     </span>{" "}
-                    <span class="text-lg font-bold text-gray-800 "> $759</span>{" "}
+                    <span class="text-lg font-bold text-gray-800 "> $59</span>{" "}
                   </div>
                 </div>
               </div>
@@ -193,4 +203,4 @@ const Gadgetweb = () => {
   );
 };
 
-export default Gadgetweb;
+export default Fashioncart;

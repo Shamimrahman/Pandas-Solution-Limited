@@ -3,6 +3,7 @@ import "./Fashion.css";
 import Message from "../MessageForm/Message";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Fashion = () => {
   useEffect(() => {
@@ -276,9 +277,122 @@ const Fashion = () => {
         </div>
       </div>
 
-      {/**Message Form */}
+      {/**Product Card */}
+      <div data-aos="fade-up" className="text-center mt-5">
+        <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
+          Product Demo Card
+        </h1>
+        <hr className="w-52 mx-auto mt-5 headline"></hr>
+      </div>
 
-      <Message></Message>
+      {/**card */}
+
+      <div className=" grid m-7 gap-5 grid-cols-1 lg:grid-cols-3 md:grid-cols-3 xm:grid-cols-2 justify-center mt-10 space-y-2 md:space-y-2">
+        {/**Card col start */}
+        <div
+          class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden"
+          data-aos="flip-down"
+        >
+          <div
+            class="flex items-end justify-end h-56 w-full bg-cover"
+            style={{
+              backgroundImage:
+                "url(https://media0.giphy.com/media/yBAGpfh3QplEA/giphy.gif)",
+            }}
+          >
+            <Link to="/fashioncart">
+              <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+              </button>
+            </Link>
+          </div>
+          <div class="px-5 py-3">
+            <h3 class="text-gray-700 uppercase">Nike Shoe</h3>
+            <span class="text-gray-500 mt-2">$95</span>
+          </div>
+        </div>
+        {/**col end */}
+
+        {/**Card col start */}
+        <div
+          class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden"
+          data-aos="flip-down"
+        >
+          <div
+            class="flex items-end justify-end h-56 w-full bg-cover"
+            style={{
+              backgroundImage:
+                "url(https://images.solecollector.com/complex/images/c_crop,h_654,w_1094,x_6,y_81/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/kryhc9jysynou9ngwpi3/adidas-ultraboost-2019)",
+            }}
+          >
+            <Link to="/fashioncart">
+              <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+              </button>
+            </Link>
+          </div>
+          <div class="px-5 py-3">
+            <h3 class="text-gray-700 uppercase">Adidas Shoe</h3>
+            <span class="text-gray-500 mt-2">$195</span>
+          </div>
+        </div>
+        {/**col end */}
+
+        {/**Card col start */}
+        <div
+          class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden"
+          data-aos="flip-down"
+        >
+          <div
+            class="flex items-end justify-end h-56 w-full bg-cover"
+            style={{
+              backgroundImage:
+                "url(https://thumbs.gfycat.com/EnchantedWeepyAlligatorsnappingturtle-size_restricted.gif)",
+            }}
+          >
+            <Link to="/fashioncart">
+              <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+              </button>
+            </Link>
+          </div>
+          <div class="px-5 py-3">
+            <h3 class="text-gray-700 uppercase">Rolex Watch</h3>
+            <span class="text-gray-500 mt-2">$1195</span>
+          </div>
+        </div>
+        {/**col end */}
+      </div>
     </div>
   );
 };

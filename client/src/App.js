@@ -16,6 +16,8 @@ import Gadgetweb from "./components/Productinfo/ecommerce/ecommerceweb/Gadgetweb
 import Plant from "./components/Productinfo/ecommerce/Plant";
 import Plantweb from "./components/Productinfo/ecommerce/ecommerceweb/Plantweb";
 import RestaurantWeb from "./components/Productinfo/ecommerce/ecommerceweb/RestaurantWeb";
+import Fashioncart from "./components/Productinfo/ecommerce/ecommerceweb/Fashioncart";
+import Grocerycart from "./components/Productinfo/ecommerce/ecommerceweb/Grocerycart";
 
 const App = () => {
   return (
@@ -32,9 +34,11 @@ const App = () => {
         <Route path="/grocery" component={Grocery}></Route>
         <Route path="/furniture" component={Furniture}></Route>
         <Route path="/gadget" component={Gadget}></Route>
-        <Route path="/gadgetweb" component={Gadgetweb}></Route>
+        <Route path="/gadgetcart" component={Gadgetweb}></Route>
         <Route path="/plant" component={Plant}></Route>
         <Route path="/plantcart" component={Plantweb}></Route>
+        <Route path="/fashioncart" component={Fashioncart}></Route>
+        <Route path="/grocerycart" component={Grocerycart}></Route>
       </switch>
     </div>
   );

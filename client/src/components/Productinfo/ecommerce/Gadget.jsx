@@ -270,9 +270,11 @@ const Gadget = () => {
                 <span class="font-bold text-gray-800 dark:text-gray-200">
                   $3299
                 </span>
-                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-                  Add to cart
-                </button>
+                <Link to={"/gadgetcart"}>
+                  <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
+                    Add to cart
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -301,9 +303,11 @@ const Gadget = () => {
                 <span class="font-bold text-gray-800 dark:text-gray-200">
                   $1229
                 </span>
-                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-                  Add to cart
-                </button>
+                <Link to={"/gadgetcart"}>
+                  <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
+                    Add to cart
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -332,9 +336,11 @@ const Gadget = () => {
                 <span class="font-bold text-gray-800 dark:text-gray-200">
                   $1299
                 </span>
-                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-                  Add to cart
-                </button>
+                <Link to={"/gadgetcart"}>
+                  <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
+                    Add to cart
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -364,24 +370,17 @@ const Gadget = () => {
                 <span class="font-bold text-gray-800 dark:text-gray-200">
                   $229
                 </span>
-                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-                  Add to cart
-                </button>
+                <Link to={"/gadgetcart"}>
+                  <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
+                    Add to cart
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
       {/**End Col */}
-
-      {/**Product Cart Page */}
-      <div data-aos="fade-up" className="text-center mt-5">
-        <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
-          Product Demo Cart Page
-        </h1>
-        <hr className="w-52 mx-auto mt-5 headline"></hr>
-      </div>
-      <Gadgetweb></Gadgetweb>
     </div>
   );
 };
