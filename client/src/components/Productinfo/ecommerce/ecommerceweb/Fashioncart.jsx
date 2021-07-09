@@ -49,7 +49,7 @@ const Fashioncart = () => {
                 <div class="flex justify-between items-center mt-6 pt-6 border-t">
                   <div class="flex items-center">
                     <img
-                      src="https://cdn.vox-cdn.com/thumbor/S4ka2uwWyJ9rHJFDwVa8BQCqMHA=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22406771/Exbfpl2WgAAQkl8_resized.jpeg"
+                      src="./info/shoecart.jpeg"
                       width="60"
                       class="rounded-full "
                     />

@@ -10,12 +10,19 @@ const Gadget = () => {
   }, []);
   return (
     <div>
-      <div class="container px-6 py-16 mx-auto">
+      <div class="container px-6 py-16 mx-auto md:-mt-20 lg:-mt-20 -mt-10">
         <div class="items-center lg:flex">
           <div class="w-full lg:w-1/2">
             <div class="lg:max-w-lg" data-aos="fade-left">
               <h1 class="xs:text-4xl font-semibold text-gray-800 uppercase dark:text-white lg:text-3xl">
                 <span class="text-gray-800"> Gadget Ecommerce</span>
+              </h1>
+
+              <h1 class="xs:text-xl font-semibold text-gray-800 uppercase dark:text-white lg:text-xl">
+                <span class="text-gray-700">
+                  {" "}
+                  Grow your business with pandas
+                </span>
               </h1>
               <p class="mt-2 text-gray-600 dark:text-gray-400">
                 Our experts developers have been developing amazing gadget

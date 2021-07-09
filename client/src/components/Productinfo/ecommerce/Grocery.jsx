@@ -267,7 +267,7 @@ const Grocery = () => {
         <hr className="w-52 mx-auto mt-5 headline"></hr>
       </div>
 
-      <div className=" grid m-7  sm:grid-cols-3 justify-center mt-12 space-y-2 md:space-y-2">
+      <div className=" grid m-7 gap-4 sm:grid-cols-3 justify-center mt-12 space-y-2 md:space-y-2">
         {/**Card col start */}
         <div
           class="flex Card max-w-md mx-auto overflow-hidden bg-green-50 rounded-lg shadow-lg dark:bg-gray-800"

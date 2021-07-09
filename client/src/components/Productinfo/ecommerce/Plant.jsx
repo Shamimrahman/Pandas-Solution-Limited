@@ -16,6 +16,10 @@ const Plant = () => {
               PLANTS ECOMMERCE
             </h2>
 
+            <h1 class="xs:text-xl font-semibold text-gray-800 uppercase dark:text-white lg:text-xl">
+              <span class="text-gray-700"> Grow your business with pandas</span>
+            </h1>
+
             <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 lg:text-base">
               A plant buying website that gives you the feeling as clean and
               fresh as plants are!!! Its free product from Pandas.

@@ -9,7 +9,7 @@ const Fashionsize = () => {
             <img
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="https://cdn.vox-cdn.com/thumbor/S4ka2uwWyJ9rHJFDwVa8BQCqMHA=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22406771/Exbfpl2WgAAQkl8_resized.jpeg"
+              src="./info/shoecart.jpeg"
             />
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 class="text-sm title-font text-gray-500 tracking-widest">

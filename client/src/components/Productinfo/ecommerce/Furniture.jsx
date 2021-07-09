@@ -13,6 +13,9 @@ const Furniture = () => {
             <h1 class="xs:text-4xl font-semibold text-gray-800 uppercase dark:text-white lg:text-3xl">
               <span class="text-blue-800"> Furniture ordering website</span>
             </h1>
+            <h1 class="xs:text-xl font-semibold text-gray-800 uppercase dark:text-white lg:text-xl">
+              <span class="text-gray-800"> Grow your business with pandas</span>
+            </h1>
             <p class="mt-2 text-gray-600 dark:text-gray-400">
               Our experts developers have been developing amazing furniture
               delivery website along with app (Android and iOS). We provide
