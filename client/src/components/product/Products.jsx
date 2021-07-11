@@ -34,8 +34,8 @@ const Products = () => {
   };
 
   return (
-    <div id='products'>
-      <div data-aos="fade-up" className="text-center mt-5">
+    <div id="products">
+      <div data-aos="fade-up" className="text-center mt-10 md:mt-30 lg:mt-30">
         <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
           OUR PRODUCTS
         </h1>
@@ -84,12 +84,11 @@ const Products = () => {
           {items.slice(pagination.start, pagination.end).map((val) => {
             return (
               <ProductCard
-              plink={val.plink}
+                plink={val.plink}
                 name={val.name}
                 price={val.price}
                 image={val.image}
                 description={val.description}
-               
                 key={val.id}
               ></ProductCard>
             );

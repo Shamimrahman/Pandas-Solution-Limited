@@ -1,7 +1,8 @@
 .hero-img {
-  width: 130%;
+  width: 110%;
   height: 100%;
   object-fit: contain;
+  border-radius: 40px;
 }
 
 .li {

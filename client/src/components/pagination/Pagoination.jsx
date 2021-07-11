@@ -39,7 +39,7 @@ const Pagoination = ({ showPerPage, onPaginationChange, total }) => {
   };
   return (
     <div>
-      <div className=" flex space-x-5 justify-center mt-10 ">
+      <div className=" flex space-x-5 justify-center mt-2 mb-10 ">
         <button
           className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2"
           onClick={prev}

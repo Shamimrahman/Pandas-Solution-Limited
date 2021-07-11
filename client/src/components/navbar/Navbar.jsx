@@ -1,19 +1,51 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <header class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center shadow-lg">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-         <Link to='/'> <img src="./img/pandasfinal.png" className="img w-full"></img></Link>
+          <Link to="/">
+            {" "}
+            <img
+              className="img"
+              src="./img/pandanew.svg"
+              className="img w-full"
+            ></img>
+          </Link>
         </a>
         <nav class="md:ml-10 ml-5 md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 text-black hover:text-red-500">Home</a>
-          <a class="mr-5 text-black hover:text-red-500 " href='#products'>Products</a>
-          <a class="mr-5 text-black hover:text-red-500">Technologies</a>
-          <a class="mr-5 text-black hover:text-red-500">Career</a>
-          <a class="mr-5 text-black hover:text-red-500">Contact</a>
+          <Link to="/" class="mr-5 text-black hover:text-red-500">
+            {" "}
+            HOME
+          </Link>
+
+          <Link to="/services" class="mr-5 text-black hover:text-red-500">
+            SERVICE
+          </Link>
+
+          <Link to="/products" class="mr-5 text-black hover:text-red-500 ">
+            {" "}
+            PRODUCT
+          </Link>
+          <Link to="/technologies" class="mr-5 text-black hover:text-red-500">
+            {" "}
+            TECHNOLOGIES
+          </Link>
+
+          <Link to="/industries" class="mr-5 text-black hover:text-red-500">
+            {" "}
+            INDUSTRIES
+          </Link>
+
+          <Link to="/career" class="mr-5 text-black hover:text-red-500">
+            CAREER
+          </Link>
+          <Link to="/contact" class="mr-5 text-black hover:text-red-500">
+            CONTACT
+          </Link>
         </nav>
         <button class="inline-flex items-center bg-red-400 border-0 py-1 px-3 focus:outline-none  rounded text-white mt-4 md:mt-0">
           Request an Estimate

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Fashion from "./components/Productinfo/ecommerce/Fashion";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
+import Services from "./components/Service/Services";
 import ScrollToTop from "./components/ScrollTop/ScrollTop";
 import Restaurant from "./components/Productinfo/ecommerce/Restaurant";
 
@@ -18,15 +19,25 @@ import Plantweb from "./components/Productinfo/ecommerce/ecommerceweb/Plantweb";
 import RestaurantWeb from "./components/Productinfo/ecommerce/ecommerceweb/RestaurantWeb";
 import Fashioncart from "./components/Productinfo/ecommerce/ecommerceweb/Fashioncart";
 import Grocerycart from "./components/Productinfo/ecommerce/ecommerceweb/Grocerycart";
-
+import Products from "./components/product/Products";
+import TechInfo from "./components/tech/TechInfo";
+import Industry from "./components/Industry/Industry";
+import Contact from "./components/Contact/Contact";
+import Navbartwo from "./components/navbar/Navbartwo";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbartwo></Navbartwo>
 
       <ScrollToTop></ScrollToTop>
       <switch>
         <Route exact path="/" component={Home}></Route>
+        <Route path="/services" component={Services}></Route>
+        <Route path="/products" component={Products}></Route>
+        <Route path="/technologies" component={TechInfo}></Route>
+        <Route path="/industries" component={Industry}></Route>
+        <Route path="/contact" component={Contact}></Route>
 
         <Route path="/fashion" component={Fashion}></Route>
         <Route path="/restaurant" component={Restaurant}></Route>
@@ -40,6 +51,8 @@ const App = () => {
         <Route path="/fashioncart" component={Fashioncart}></Route>
         <Route path="/grocerycart" component={Grocerycart}></Route>
       </switch>
+
+      <Footer></Footer>
     </div>
   );
 };

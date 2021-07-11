@@ -10,8 +10,8 @@ const Process = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div>
-      <div data-aos="fade-up" className="text-center mt-5">
+    <div id="about">
+      <div data-aos="fade-up" className="text-center mt-24">
         <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
           OUR DEVELOPMENT PROCESS
         </h1>

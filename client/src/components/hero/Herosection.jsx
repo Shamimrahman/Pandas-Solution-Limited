@@ -7,7 +7,7 @@ import ArtTrackIcon from "@material-ui/icons/ArtTrack";
 import EqualizerIcon from "@material-ui/icons/Equalizer";
 const Herosection = () => {
   return (
-    <div >
+    <div>
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <Fade left>
@@ -44,11 +44,11 @@ const Herosection = () => {
             </div>
           </Fade>
           <Fade right>
-            <div className=" hero-img">
+            <div className=" hero-img mt-12 md:mt-0 lg:mt-0 xl:mt-0">
               <img
                 class="object-cover object-center rounded"
                 alt="hero"
-                src="img/hero.jpg"
+                src="./img/dash.gif"
               />
             </div>
           </Fade>

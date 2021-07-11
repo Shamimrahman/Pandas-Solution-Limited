@@ -18,7 +18,7 @@ const Motive = () => {
     <section className="text-gray-600 body-font ">
       <div className="container px-5 py-24 mx-auto -mt-8 md:-mt-4">
         <div data-aos="fade-up" className="text-center mb-20">
-          <h1 className="sm:text-3xl text-5xl font-medium text-center title-font text-gray-900 mb-4">
+          <h1 className="sm:text-3xl  text-4xl font-medium text-center title-font text-gray-900 mb-4">
             THE VALUES THAT DRIVE US
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
