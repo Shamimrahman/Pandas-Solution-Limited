@@ -18,13 +18,13 @@ const Tech = ({ image, title }) => {
           <div class="p-2 sm:p-10 text-center">
             <div
               style={{ height: "180px" }}
-              className="flex justify-center items-center max-w-sm rounded overflow-hidden shadow-lg hover:bg-white bg-gray-100"
+              className="flex justify-center items-center w-full rounded overflow-hidden shadow-lg hover:bg-white bg-gray-100"
             >
               <div class="space-y-10">
                 <div class="px-6 py-4">
-                  <div class="px-10 max-w-xl">
+                  <div class="px-10 w-full">
                     <img
-                      className="w-28 h-28   m-auto object-contain "
+                      className="w-28 h-28 md:w-full lg:w-full md:h-full lg:h-full   m-auto object-contain "
                       src={image}
                       alt="tech"
                     />

@@ -52,7 +52,7 @@ const Furniture = () => {
       <div class="text-blueGray-700 mt-2 bg-gray-50 shadow-xl ">
         <div class="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
           <div
-            class="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/3 lg-mt-72"
+            class="w-full mb-10  md:max-w-lg lg:max-w-lg lg-mt-72"
             data-aos="zoom-out-down"
           >
             <img
@@ -61,11 +61,11 @@ const Furniture = () => {
               src="https://www.wofox.com/napi/adsn/MTY2NjU=/166651574058317971.gif?20191223083542"
             />
           </div>
-          <div class=" flex flex-col items-start text-left lg:flex-grow md:w-1/3 lg:pl-24 md:pl-16 xs:ml-2 md:ml-28 ">
+          <div class=" flex flex-col items-start text-left lg:flex-grow w-full lg:pl-24 md:pl-16 xs:ml-2 md:ml-28 ">
             <section class=" text-blueGray-700 ">
               <div class="container items-center px-5 py-12 lg:px-20">
                 <div class="flex flex-wrap items-center justify-center w-full gap-4">
-                  <div class="w-full xl:w-1/4 md:w-3/6">
+                  <div class="w-full ">
                     <div
                       class="relative flex flex-col h-full p-8 transition duration-500 ease-in-out transform bg-blue-500 border rounded-lg shadow-2xl"
                       data-aos="flip-right"
@@ -265,7 +265,7 @@ const Furniture = () => {
       <div className="grid m-7 grid-cols-1 xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 justify-center mx-auto ">
         {/**Col start */}
 
-        <div class="Card container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+        <div class="Card container mx-auto max-w-sm w-full p-4 ">
           <div
             class="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
             data-aos="flip-right"
@@ -330,7 +330,7 @@ const Furniture = () => {
         </div>
         {/**End col */}
 
-        <div class="  container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+        <div class="  container mx-auto max-w-sm w-full p-4 ">
           <div
             class=" Card card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
             data-aos="flip-right"
@@ -395,7 +395,7 @@ const Furniture = () => {
         </div>
 
         {/**Start col */}
-        <div class="container mx-auto max-w-sm w-full p-4 sm:w-1/2">
+        <div class="container mx-auto max-w-sm w-full p-4 ">
           <div
             class=" Card card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl"
             data-aos="flip-right"

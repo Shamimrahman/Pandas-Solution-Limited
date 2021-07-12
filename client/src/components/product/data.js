@@ -120,7 +120,7 @@ const data = [
     category: "website",
     price: " $298 / 25,000৳ -",
     description:
-      "Pandas have developed responsive website for restaurants with a clean and modern design for the perfect website. With its minimalist design layout, you can rest assured that your food listings and other vital contents. ",
+      "Pandas have developed responsive website for restaurants with a clean and modern design for the perfect website. ",
   },
 
   {

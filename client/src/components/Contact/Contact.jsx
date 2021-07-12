@@ -88,7 +88,7 @@ const Contact = () => {
               </label>
 
               <input
-                class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl border   border-orange-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
                 type="text"
               />
             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
               </label>
 
               <input
-                class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                class="block w-full px-4 py-2 text-gray-700 border bg-orange-100 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
                 type="email"
               />
             </div>
@@ -110,7 +110,7 @@ const Contact = () => {
               Message
             </label>
 
-            <textarea class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "></textarea>
+            <textarea class="block w-full px-4 py-2 border text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "></textarea>
           </div>
 
           <div class="flex justify-center mt-6">
