@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ServiceCard from "./ServiceCard";
-import Tech from "../tech/Tech";
 import "./Service.css";
 
 const Services = () => {
@@ -21,8 +19,8 @@ const Services = () => {
       <div class="max-w-screen-xl p-4 bg-white dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
         <div class="relative">
           <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-            <div class="lg:col-start-2 lg:max-w-2xl ml-auto md:-mt-72  ">
-              <h4 class="mt-4 lg:mt-2 md:mt-2  text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
+            <div class="lg:col-start-2 lg:max-w-2xl ml-auto ">
+              <h4 class="lg:mt-2 header-h  text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
                 Interactivity between team members is the key of the success.
               </h4>
               <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">

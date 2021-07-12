@@ -34,7 +34,7 @@ const Products = () => {
   };
 
   return (
-    <div id="products">
+    <div id="products ">
       <div data-aos="fade-up" className="text-center mt-10 md:mt-30 lg:mt-30">
         <h1 className="sm:text-3xl text-4xl font-medium text-center title-font text-gray-900 mb-4">
           OUR PRODUCTS
@@ -79,8 +79,11 @@ const Products = () => {
         </button>
       </div>
 
-      <div>
-        <div className="grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 grid-cols-1 align-items-center card-item mt-10">
+      <div className=" bg-gradient-to-br from-gray-700 via-gray-900 to-black">
+        <div
+          className="  -space-y-40 md:-space-y-0 lg:-space-y-0 
+grid md:grid-cols-3 conatain lg:grid-cols-3 xl:grid-cols-3 grid-cols-1 align-items-center card-item  mt-10"
+        >
           {items.slice(pagination.start, pagination.end).map((val) => {
             return (
               <ProductCard

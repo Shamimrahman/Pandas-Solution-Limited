@@ -5,11 +5,18 @@
   margin-left: 10%;
 }
 
+.header-h {
+  margin-top: -18rem;
+}
 @media screen and (max-width: 760px) {
   .simg {
     object-fit: contain;
     width: 100%;
     height: auto;
     margin-left: -1%;
+  }
+
+  .header-h {
+    margin-top: 1rem;
   }
 }

@@ -9,45 +9,26 @@ const ProductCard = ({ image, name, description, price, plink }) => {
   }, []);
 
   return (
-    <div>
-      <section className="text-blueGray-700  hover:bg-orange-100">
-        <div
-          className="container items-center px-5 py-12 lg:px-16 Card"
-          data-aos="flip-right"
-        >
-          <div className="  w-full">
-            <div className="relative flex flex-col h-full transition duration-500 ease-in-out transform bg-white card hover:text-red-500 hover:bg-gray-100 rounded-lg shadow-xl ">
-              <img
-                className="object-cover card-img object-center w-full lg:h-52 md:h-36 shadow-xl"
-                src={image}
-                alt="product"
-              />
-              <div className="p-6">
-                <h2 className="mb-4 text-sm font-medium tracking-widest text-blueGray-700 uppercase title-font ">
-                  {name}
-                </h2>
-                <strong className="flex items-end mb-8 md:text-xl text-xl font-black leading-none text-black lg:text-xl ">
-                  From &nbsp; {price}
-                </strong>
-                <p className="flex text-justify items-center mb-4 text-base font-medium leading-relaxed text-gray-800 lg:h-24 md:h-18">
-                  {description}
-                </p>
-                <div>
-                  <Link to={plink}>
-                    {" "}
-                    <button
-                      role="button"
-                      className="w-full shadow-2xl px-4 py-2 mx-auto mt-6 text-base font-medium text-white transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2 hover:bg-red-600  button"
-                    >
-                      Request For Demo
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
+    <div
+      class=" font-sans  w-full min-h-screen flex flex-wrap justify-center items-center gap-3 py-5"
+      data-aos="flip-right"
+    >
+      <div class=" -mt-28 backdrop Card w-10/12  bg-white  rounded p-3 text-gray-200 border border-gray-300 shadow-2xl">
+        <div class="w-full h-full mb-3 pb-3 border-b border-1 border-white">
+          <h3 class="text-xl text-center ">{name}</h3>
+        </div>
+        <div>
+          <img src={image} alt="image" class="w-full h-48 object-cover mb-2" />
+          <p class="mb-3 tracking-wide text-base text-shadow">{description}</p>
+          <div className="flex justify-center items-center">
+            <Link to={plink}>
+              <button class="backdrop bg-white bg-opacity-0 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+                Request For Demo
+              </button>
+            </Link>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

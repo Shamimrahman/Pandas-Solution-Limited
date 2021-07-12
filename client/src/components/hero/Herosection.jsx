@@ -17,7 +17,7 @@ const Herosection = () => {
                 Your technology partner for{" "}
                 <span className="text-red-500">innovative</span> and{" "}
                 <span className="text-red-500">impactful </span> software
-                solutions. demo
+                solutions.
               </h1>
               <div className="md:text-xl text-gray-700 font-mono mt-2 md:mt-2">
                 <ol>
