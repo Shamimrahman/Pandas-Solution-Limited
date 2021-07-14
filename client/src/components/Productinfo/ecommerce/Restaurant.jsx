@@ -32,12 +32,12 @@ const Restaurant = () => {
           </div>
           <div className="flex justify-left justify-center space-x-6 ">
             <a href="#message">
-              <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+              <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform  border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
                 For Demo
               </button>
             </a>
 
-            <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+            <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
               App
             </button>
           </div>
@@ -49,7 +49,7 @@ const Restaurant = () => {
           data-aos="zoom-in-right"
         >
           <img
-            className="object-cover object-center w-full shadow-xl rounded-xl sm:mt-5  "
+            className="object-cover object-center  shadow-xl rounded-xl sm:mt-5  "
             alt="fashion"
             src="./info/reslandin.png"
           />
@@ -60,23 +60,23 @@ const Restaurant = () => {
 
       <div class="text-blueGray-700 mt-20 bg-gray-50 ">
         <div class="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
-          <div class=" w-full  -mt-32" data-aos="zoom-out-down">
+          <div class=" w-10/12 ml-6  -mt-32" data-aos="zoom-out-down">
             <img
-              class="object-cover object-center rounded shadow-lg lg:-mt-28 "
+              class="object-cover w-full object-center rounded shadow-lg lg:-mt-28 "
               alt="hero"
               src="./info/res2.jpg"
             />
           </div>
-          <div
-            class=" flex flex-col pl:2 ml-2 md:ml-32 lg:ml-32"
-            data-aos="flip-down"
-          >
+          <div class=" flex flex-col pl:2 ml-2 ">
             <section class=" text-blueGray-700 ">
               <div class="container items-center px-5 py-12 lg:px-20">
                 <div class=" flex items-center justify-center ">
-                  <div className="w-10/12 ">
+                  <div
+                    className="w-full lg:w-10/6 md:w-10/6"
+                    data-aos="flip-down"
+                  >
                     <div
-                      class=" p-8 w-10/12  bg-orange-100 border rounded-lg shadow-xl"
+                      class=" p-8 w-10/6  bg-orange-100 border rounded-lg shadow-xl"
                       data-aos="flip-down"
                     >
                       <h2 class="mb-4 text-2xl font-medium tracking-widest text-black uppercase title-font">
@@ -86,7 +86,7 @@ const Restaurant = () => {
                         {" "}
                         All the basics for starting a new biz..{" "}
                       </p>
-                      <strong class="font-bold text-lg  font-sans text-black ">
+                      <strong class="font-bold text-xl  font-sans text-black ">
                         <span>From $358 / 30,000৳ - </span>
                       </strong>
                       <p class="flex items-center mt-8 mb-2 text-base font-medium leading-relaxed text-blueGray-700">

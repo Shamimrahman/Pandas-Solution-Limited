@@ -33,12 +33,12 @@ const Gadget = () => {
               </p>
               <div class="flex justify-center space-x-7 mt-10">
                 <a href="#message">
-                  <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+                  <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
                     Full Demo
                   </button>
                 </a>
 
-                <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+                <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform  border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
                   App
                 </button>
               </div>
@@ -69,11 +69,14 @@ const Gadget = () => {
                 src="./info/gadget2.jpg"
               />
             </div>
-            <div class=" flex flex-col items-start text-left lg:flex-grow md:w-1/3 lg:pl-24 md:pl-16 xs:ml-2 md:ml-28 ">
+            <div class=" flex flex-col pl:2 ml-2 ">
               <section class=" text-blueGray-700 ">
                 <div class="container items-center px-5 py-12 lg:px-20">
-                  <div class="flex flex-wrap items-center justify-center w-full gap-4">
-                    <div class="w-full xl:w-1/4 md:w-3/6">
+                  <div class=" flex items-center justify-center">
+                    <div
+                      class=" w-full lg:w-10/6 md:w-10/6"
+                      data-aos="zoom-out-down"
+                    >
                       <div
                         class="relative text-white flex flex-col h-full p-8 transition duration-500 ease-in-out transform bg-gray-800 border rounded-lg shadow-2xl"
                         data-aos="flip-right"

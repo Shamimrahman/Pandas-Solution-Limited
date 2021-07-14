@@ -22,9 +22,9 @@ const Tech = ({ image, title }) => {
             >
               <div class="space-y-10">
                 <div class="px-6 py-4">
-                  <div class="px-10 w-full">
+                  <div class="px-10 ">
                     <img
-                      className="w-28 h-28 md:w-full lg:w-full md:h-full lg:h-full   m-auto object-contain "
+                      className="w-28 lg:w-full h-28 object-contain "
                       src={image}
                       alt="tech"
                     />

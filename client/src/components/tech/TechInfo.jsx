@@ -14,7 +14,7 @@ const TechInfo = () => {
         <hr className="w-52 mx-auto mt-5 headline"></hr>
       </div>
 
-      <div className=" grid m-7  sm:grid-cols-5 justify-center mt-12 space-y-2 md:space-y-2">
+      <div className=" grid m-7  grid-cols-1 lg:grid-cols-4 md:grid-cols-4 xl:grid-cols-4 justify-center mt-12 space-y-2 md:space-y-2">
         {items.map((val) => {
           return <Tech key={val.id} image={val.image} title={val.title}></Tech>;
         })}

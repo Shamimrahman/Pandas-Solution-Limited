@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "../../index.css";
 const Services = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
     <div id="services">
-      <div data-aos="fade-up" className="text-center mt-24 md:-mt-24 lg:mt-24">
+      <div data-aos="fade-up" className="text-center mt-24 md:-mt-24 lg:mt-32">
         <h1 className="sm:text-3xl  text-4xl font-medium text-center title-font text-gray-900 mb-4">
-          SOME SNAPSHOTS
+          SNAPSHOTS OF OUR PRODUCTS
         </h1>
         <hr className="w-52 mx-auto mt-5 headline"></hr>
       </div>
@@ -41,7 +40,7 @@ const Services = () => {
                 data-aos="zoom-in-up"
               >
                 <img
-                  class="rounded-lg shadow-lg  w-36 md:w-72"
+                  class="rounded-lg shadow-lg  w-32 md:w-72"
                   width="170"
                   src="./img/appfood.png"
                   alt="3"
@@ -60,7 +59,7 @@ const Services = () => {
 
       <div data-aos="zoom-in ">
         <img
-          class=" simg w-15"
+          class="lg:w-10/12 md:w-10/12 w:10/18 md:ml-20 lg:ml-20 ml-2 "
           alt="process"
           src="https://images.squarespace-cdn.com/content/v1/5d48ece5c9b54700015ba784/1603676341616-8KFT7L4Y1KVA867JW5OK/Boston+Grocery+Delivery+App+UI+Kit-web-15.gif"
         />

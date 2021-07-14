@@ -9,50 +9,49 @@ const Plant = () => {
   }, []);
   return (
     <div>
-      <div class="lg:flex">
-        <div class="flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2">
-          <div class="max-w-xl">
-            <h2 class="text-3xl font-semibold text-green-500 dark:text-white lg:text-3xl">
-              PLANTS ECOMMERCE
+      <div className="text-blueGray-700 ">
+        <div className="container flex flex-col px-5 py-24 mx-auto lg:items-center">
+          <div
+            className="flex flex-col lg:w-full mb-12 text-left lg:text-center "
+            data-aos="flip-down"
+          >
+            <h2 className="mb-4 text-4xl font-semibold tracking-widest text-green-500 uppercase title-font text-center">
+              PLANTS E-COMMERCE
             </h2>
-
-            <h1 class="xs:text-xl font-semibold text-gray-800 uppercase dark:text-white lg:text-xl">
-              <span class="text-gray-700"> Grow your business with pandas</span>
+            <h1 className="mb-6 text-2xl font-semibold tracking-tighter text-black sm:text-5xl title-font text-center">
+              Grow Your Bussiness with Pandas
             </h1>
-
-            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 lg:text-base">
+            <p className="mx-auto text-base font-medium leading-relaxed text-blueGray-700 lg:w-2/3">
               A plant buying website that gives you the feeling as clean and
               fresh as plants are!!! Its free product from Pandas.
             </p>
-
-            <div class="flex justify-center space-x-7 mt-10">
-              <a href="#message">
-                <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
-                  Demo
-                </button>
-              </a>
-
-              <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform bg-red-500 border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
-                App
-              </button>
-            </div>
           </div>
-        </div>
+          <div className="flex justify-left justify-center space-x-6 ">
+            <a href="#message">
+              <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform  border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+                For Demo
+              </button>
+            </a>
 
-        <div class="w-full h-64 lg:w-1/2 lg:h-auto">
-          <div
-            class="w-full h-full bg-cover"
-            style={{
-              backgroundImage:
-                "url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/540a1969142365.5b77206c7491b.gif)",
-            }}
-          >
-            <div class="w-full h-full bg-black opacity-25"></div>
+            <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
+              App
+            </button>
           </div>
         </div>
       </div>
-
-      <div class="text-blueGray-700 mt-2 bg-gray-50 shadow-xl ">
+      <section>
+        <div
+          className=" container flex flex-col items-center justify-center px-10 mx-auto rounded-lg lg:-mt-12 lg:px-40 "
+          data-aos="zoom-in-right"
+        >
+          <img
+            className="object-cover object-center  shadow-xl rounded-xl sm:mt-5  "
+            alt="fashion"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/540a1969142365.5b77206c7491b.gif"
+          />
+        </div>
+      </section>
+      <div class="text-blueGray-700 mt-20 bg-gray-50 shadow-xl ">
         <div class="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
           <div
             class="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/3 lg-mt-72"
@@ -64,11 +63,11 @@ const Plant = () => {
               src="https://cdn.dribbble.com/users/2638573/screenshots/11467098/mockup_-_dribbble_-_4_4x.jpg"
             />
           </div>
-          <div class=" flex flex-col items-start text-left lg:flex-grow md:w-1/3 lg:pl-24 md:pl-16 xs:ml-2 md:ml-28 ">
+          <div class=" flex flex-col pl:2 ml-2">
             <section class=" text-blueGray-700 ">
               <div class="container items-center px-5 py-12 lg:px-20">
-                <div class="flex flex-wrap items-center justify-center w-full gap-4">
-                  <div class="w-full xl:w-1/4 md:w-3/6">
+                <div class=" flex items-center justify-center">
+                  <div class="w-full lg:w-10/6 md:w-10/6">
                     <div
                       class="relative text-black flex flex-col h-full p-8 transition duration-500 ease-in-out transform bg-green-200 border rounded-lg shadow-2xl"
                       data-aos="flip-right"

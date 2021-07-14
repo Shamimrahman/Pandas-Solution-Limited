@@ -1,17 +1,19 @@
 const data = [
   {
     id: 1,
-    image: "../software/erp.jpg",
+    image:
+      "https://cdn.dribbble.com/users/5094323/screenshots/11184058/media/21d762e9bf83e02db2e7c2fab41320e1.gif",
     name: "Enterprise Resource Planning",
     category: "software",
     price: " $1774 / 1,50,000৳ -",
     description:
-      " ERP is a organizational software use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations. ",
+      " ERP is a organizational software use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance. ",
   },
 
   {
     id: 2,
-    image: "../software/hos.png",
+    image:
+      "https://i.pinimg.com/originals/33/ba/21/33ba21ccda561739ab950d66e5616b82.gif",
     name: "Smart Hospital Software",
     category: "software",
     price: " $1715 / 1,45,000৳ -",
@@ -22,7 +24,7 @@ const data = [
   {
     id: 3,
     image:
-      "https://elearningindustry.com/wp-content/uploads/2019/12/lms-software-solutions-for-your-organization.jpg",
+      "https://a.fsdn.com/con/app/proj/litmos-lms.s/screenshots/LitmosLMS-HomePage.PNG/max/max/1",
     name: "Learning Management System",
     category: "software",
     price: "$1656 / 1,40,000৳ -",
@@ -33,7 +35,7 @@ const data = [
   {
     id: 4,
     image:
-      "https://empmonitor.com/blog/wp-content/uploads/2020/03/Remote-Woker-Monitoring-1.png",
+      "https://i.pinimg.com/originals/ee/9f/fc/ee9ffc328170b10a2e7aa2ff8384e211.gif",
     name: "Employee Monitoring Software",
     category: "software",
     price: " $1656 / 1,40,000৳ -",
@@ -43,7 +45,8 @@ const data = [
 
   {
     id: 5,
-    image: "../software/pos.png",
+    image:
+      "https://i.pinimg.com/originals/da/f5/56/daf556ceaa38aea896130652b8c032a7.gif",
     name: "Pos Software with Barcode Machine",
     category: "software",
     price: " $472 / 40,000৳-",
@@ -52,7 +55,8 @@ const data = [
   },
   {
     id: 6,
-    image: "ecommerce/fashion.png",
+    image:
+      "https://i.pinimg.com/originals/e6/0f/13/e60f13a40abbc03b8a6a06518e68088d.gif",
     name: "Fashion Ecommerce Site",
     category: "ecommerce",
     price: "  $358 / 30,000৳ - ",
@@ -74,11 +78,11 @@ const data = [
   {
     id: 8,
     image: "ecommerce/grocery.png",
-    name: "Online Grocery Items Ordering System ",
+    name: "Groceries Item Ecommerce Site ",
     category: "ecommerce",
     price: "$416.66 / 35,000৳ - ",
     description:
-      " A well build online Grocery Management And Delivery Software for Supermarket And Hypermarket Business ",
+      " A well build online Grocery Management And Delivery Software for Supermarket And Hypermarket Business. ",
     plink: "/grocery",
   },
 
@@ -89,7 +93,7 @@ const data = [
     category: "ecommerce",
     price: " $358 / 30,000৳ -",
     description:
-      " As you go through the necessary steps to launch your furniture or interior design store online, Pandas gives you an incredible selection of furniture website ",
+      " As you go through the necessary steps to launch your furniture or interior design store online, Pandas gives you an incredible selection of furniture website. ",
     plink: "/furniture",
   },
   {

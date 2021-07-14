@@ -15,7 +15,7 @@ const Servicetwo = () => {
         </h1>
         <hr className="w-52 mx-auto mt-5 headline"></hr>
       </div>
-      <div class="grid md:grid-cols-4 lg:grid-cols-4 grid-cols-2">
+      <div class="grid md:grid-cols-3 lg:grid-cols-3 grid-cols-1 -space-y-20 md:-space-y-0 lg:-space-y-0 ">
         {data.map((val) => {
           return (
             <ServiceCard

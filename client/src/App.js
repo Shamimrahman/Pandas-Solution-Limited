@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Fashion from "./components/Productinfo/ecommerce/Fashion";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
-import Services from "./components/Service/Services";
+import Servicetwo from "./components/Service/Servicetwo";
 import ScrollToTop from "./components/ScrollTop/ScrollTop";
 import Restaurant from "./components/Productinfo/ecommerce/Restaurant";
 
@@ -33,7 +33,7 @@ const App = () => {
       <ScrollToTop></ScrollToTop>
       <switch>
         <Route exact path="/" component={Home}></Route>
-        <Route path="/services" component={Services}></Route>
+        <Route path="/services" component={Servicetwo}></Route>
         <Route path="/products" component={Products}></Route>
         <Route path="/technologies" component={TechInfo}></Route>
         <Route path="/industries" component={Industry}></Route>

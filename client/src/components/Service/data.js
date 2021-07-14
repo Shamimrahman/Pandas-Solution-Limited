@@ -45,13 +45,19 @@ const data = [
     id: 6,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd1xxzf_eVRoDH6BxDPaivfRxMG-vjH67DNAUzsT4R6dQprEC3frAw_Yhcv6Pke5idqRs&usqp=CAU",
-    title: "    Business Data Analyst ",
+    title: "    Business Data Analytics ",
   },
 
   {
     id: 7,
     image: "https://www.freeiconspng.com/uploads/consultancy-icon-1.png",
     title: "   IT Counsulting",
+  },
+  {
+    id: 7,
+    image:
+      "https://icon-library.com/images/ux-design-icon/ux-design-icon-22.jpg",
+    title: "   UI/UX Design",
   },
 ];
 
