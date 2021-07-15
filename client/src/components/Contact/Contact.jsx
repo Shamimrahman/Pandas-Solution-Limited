@@ -1,10 +1,27 @@
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import emailjs from "emailjs-com";
+
 const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
   return (
     <div>
       <div data-aos="fade-up" className="text-center mt-24">
@@ -80,45 +97,51 @@ const Contact = () => {
           </a>
         </div>
 
-        <div class="mt-6 ">
-          <div class="items-center -mx-2 md:flex">
-            <div class="w-full mx-2">
-              <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                Name
-              </label>
+        <form onSubmit={sendEmail}>
+          <div class="mt-6 ">
+            <div class="items-center -mx-2 md:flex">
+              <div class="w-full mx-2">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
+                  Name
+                </label>
 
-              <input
-                class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl border   border-orange-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
-                type="text"
-              />
+                <input
+                  class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl border   border-orange-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                  type="text"
+                />
+              </div>
+
+              <div class="w-full mx-2 mt-4 md:mt-0">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
+                  E-mail
+                </label>
+
+                <input
+                  class="block w-full px-4 py-2 text-gray-700 border bg-orange-100 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                  type="email"
+                />
+              </div>
             </div>
 
-            <div class="w-full mx-2 mt-4 md:mt-0">
-              <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                E-mail
+            <div class="w-full mt-4 shadow-xl">
+              <label class="block mb-2 text-sm font-medium  text-gray-600 dark:text-gray-200">
+                Message
               </label>
 
-              <input
-                class="block w-full px-4 py-2 text-gray-700 border bg-orange-100 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
-                type="email"
-              />
+              <textarea class="block w-full px-4 py-2 border text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "></textarea>
+            </div>
+
+            <div class="flex justify-center mt-6">
+              <button
+                class="px-4 py-2 shadow-xl text-gray-900 transition-colors duration-200 transform bg-orange-100 rounded-md hover:bg-green-400 focus:outline-none"
+                type="submit"
+                value="Send"
+              >
+                Send Message
+              </button>
             </div>
           </div>
-
-          <div class="w-full mt-4 shadow-xl">
-            <label class="block mb-2 text-sm font-medium  text-gray-600 dark:text-gray-200">
-              Message
-            </label>
-
-            <textarea class="block w-full px-4 py-2 border text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "></textarea>
-          </div>
-
-          <div class="flex justify-center mt-6">
-            <button class="px-4 py-2 shadow-xl text-gray-900 transition-colors duration-200 transform bg-orange-100 rounded-md hover:bg-green-400 focus:outline-none">
-              Send Message
-            </button>
-          </div>
-        </div>
+        </form>
       </section>
     </div>
   );

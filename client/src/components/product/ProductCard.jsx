@@ -10,7 +10,7 @@ const ProductCard = ({ image, name, description, price, plink }) => {
 
   return (
     <div
-      class=" -space-y-72 font-sans  w-full min-h-screen flex flex-wrap justify-center items-center gap-3 py-5"
+      class="  font-sans  w-full min-h-screen flex flex-wrap justify-center items-center gap-3 py-5"
       data-aos="flip-right"
     >
       <div class=" -mt-28  blur-lg    w-10/12   rounded-3xl p-3 text-gray-200 border  border-gray-300 shadow-2xl">
