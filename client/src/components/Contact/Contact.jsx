@@ -12,15 +12,23 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm(
+        "service_eu532sn",
+        "template_f7b5jad",
+        e.target,
+        "user_Uw0u0GDPt64cadquqey8M"
+      )
       .then(
         (result) => {
           console.log(result.text);
+          window.alert("Message Send Successfully");
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   }
   return (
     <div>
@@ -108,6 +116,8 @@ const Contact = () => {
                 <input
                   class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl border   border-orange-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
                   type="text"
+                  name="name"
+                  required
                 />
               </div>
 
@@ -119,6 +129,22 @@ const Contact = () => {
                 <input
                   class="block w-full px-4 py-2 text-gray-700 border bg-orange-100 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
                   type="email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="w-full mx-2">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
+                  Service
+                </label>
+
+                <input
+                  class="block w-full px-4 py-2 text-gray-700 bg-orange-100 shadow-xl border   border-orange-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                  type="text"
+                  name="subject"
+                  placeholder="e.g: Website"
+                  required
                 />
               </div>
             </div>
@@ -128,7 +154,11 @@ const Contact = () => {
                 Message
               </label>
 
-              <textarea class="block w-full px-4 py-2 border text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "></textarea>
+              <textarea
+                class="block w-full px-4 py-2 border text-gray-700 bg-orange-100 shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
+                name="message"
+                required
+              ></textarea>
             </div>
 
             <div class="flex justify-center mt-6">
