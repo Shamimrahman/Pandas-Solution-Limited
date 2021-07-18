@@ -156,6 +156,16 @@ const data = [
     description:
       " Grow your advertisement agency with pandas. Pandas's developers have developed some amazing add agency website to grow your bussiness. ",
   },
+
+  {
+    id: 15,
+    image: "../web/ad.jpg",
+    name: "Fashion E-commerce App",
+    category: "app",
+    price: "From $298 / 25,000৳ -",
+    description:
+      " Grow your advertisement agency with pandas. Pandas's developers have developed some amazing add agency website to grow your bussiness. ",
+  },
 ];
 
 export default data;
