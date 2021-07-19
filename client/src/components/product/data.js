@@ -162,7 +162,7 @@ const data = [
     image:
       "https://i.pinimg.com/originals/47/77/9b/47779b1bdfab02567f773bb37897bc62.gif",
     name: "Fashion E-commerce App",
-    category: "app",
+    category: "apps",
     price: "From $298 / 25,000৳ -",
     description:
       "More flexibility, faster go to market. See what Fashion-Ecommerce can do for you.  ",
@@ -173,7 +173,7 @@ const data = [
     image:
       "https://camo.envatousercontent.com/8cff213ad4c1342e2fe2259a47f6d13f28a9d3b4/68747470733a2f2f692e696d6775722e636f6d2f6f6d70526568372e676966",
     name: "Food Ordering App",
-    category: "app",
+    category: "apps",
     price: "From $400 / 32,000৳ -",
     description:
       "Use our online food ordering system app for restaurants to start taking free unlimited online orders from your app ",
@@ -184,7 +184,7 @@ const data = [
     image:
       "https://www.cleveroad.com/images/article-previews/grocery-gif-3.gif",
     name: "Grocery App",
-    category: "app",
+    category: "apps",
     price: "From $298 / 25,000৳ -",
     description:
       " A well build online Grocery Management And Delivery app for Supermarket And Hypermarket Business. ",
