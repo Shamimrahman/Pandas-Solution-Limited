@@ -176,13 +176,13 @@ const data = [
     category: "apps",
     price: "From $400 / 32,000৳ -",
     description:
-      "Use our online food ordering system app for restaurants to start taking free unlimited online orders from your app ",
+      "Use our online food ordering system app for restaurants to start taking free unlimited online orders from your app. ",
   },
 
   {
     id: 17,
     image:
-      "https://www.cleveroad.com/images/article-previews/grocery-gif-3.gif",
+      "https://assets.materialup.com/uploads/07c8371e-2d90-4359-b84d-3bcb5845f1d1/preview.gif",
     name: "Grocery App",
     category: "apps",
     price: "From $298 / 25,000৳ -",
