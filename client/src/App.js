@@ -25,6 +25,7 @@ import Industry from "./components/Industry/Industry";
 import Contact from "./components/Contact/Contact";
 import Navbartwo from "./components/navbar/Navbartwo";
 import Footer from "./components/Footer/Footer";
+import Estimate from "./components/estimate/Estimate";
 const App = () => {
   return (
     <div>
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/technologies" component={TechInfo}></Route>
         <Route path="/industries" component={Industry}></Route>
         <Route path="/contact" component={Contact}></Route>
+        <Route path="/estimate" component={Estimate}></Route>
 
         <Route path="/fashion" component={Fashion}></Route>
         <Route path="/restaurant" component={Restaurant}></Route>

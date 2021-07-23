@@ -1,8 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
+
 const Navbar = () => {
+  const history = useHistory();
+  const estimate = () => {
+    history.push("/estimate");
+  };
   return (
     <header class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center shadow-lg">
@@ -47,7 +52,11 @@ const Navbar = () => {
             CONTACT
           </Link>
         </nav>
-        <button class="inline-flex items-center bg-red-400 border-0 py-1 px-3 focus:outline-none  rounded text-white mt-4 md:mt-0">
+
+        <button
+          onClick={estimate}
+          class="inline-flex items-center bg-red-400 border-0 py-1 px-3 focus:outline-none  rounded text-white mt-4 md:mt-0"
+        >
           Request an Estimate
           <svg
             fill="none"
