@@ -174,7 +174,7 @@ const data = [
       "https://camo.envatousercontent.com/8cff213ad4c1342e2fe2259a47f6d13f28a9d3b4/68747470733a2f2f692e696d6775722e636f6d2f6f6d70526568372e676966",
     name: "Food Ordering App",
     category: "apps",
-    price: "From $400 / 32,000৳ -",
+    price: "From $400 / 30,000৳ -",
     description:
       "Use our online food ordering system app for restaurants to start taking free unlimited online orders from your app. ",
   },
