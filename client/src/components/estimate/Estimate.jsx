@@ -17,6 +17,7 @@ const Estimate = () => {
         <li>B</li>
         <li>B</li>
         <li>B</li>
+        <li>B</li>
 
         <input placeholder="name" type="text"></input>
         <input placeholder="name" type="text"></input>
